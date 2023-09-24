@@ -75,6 +75,6 @@ The members make 60% of the total while remaining 40% constitutes casual riders.
 We also discover that casual often start and end their trip in the place of entertainment while members often start and end their trip close to universities, residential and commercial areas.
 # Act
 Recommendation for the marketing strategy:
-1, Increase the amount of bikes, do some marketing strategies in spring and summer in the places of entertament.
-2, Provide benefits for member and limit benefits for casual such as time-using at weekends.
-3, Discount for long time-using.
+* Increase the amount of bikes, do some marketing strategies in spring and summer in the places of entertament.
+* Provide benefits for member and limit benefits for casual such as time-using at weekends.
+* Discount for long time-using.
