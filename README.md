@@ -62,6 +62,6 @@ This step includes:
 * Update for the row that have the end_day is more than the start_day
 # Analyze
 * First of all, member and casual riders are compared by the type of bikes they are using.
-![docked_bike_vs_member_casual](https://scontent.fsgn5-8.fna.fbcdn.net/v/t1.15752-9/381508155_295497883114203_6790646712262889420_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=hSzFo1zZvlcAX_2xBvA&_nc_ht=scontent.fsgn5-8.fna&_nc_e2o=s&oh=03_AdR_m-zcs7VptSc0ei0P-hv2STxNaXcAMCh8w6Pwrk_5zQ&oe=6537AC80)
+![docked_bike_vs_member_casual](https://scontent.fsgn5-8.fna.fbcdn.net/v/t1.15752-9/381508155_295497883114203_6790646712262889420_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=hSzFo1zZvlcAX_2xBvA&_nc_ht=scontent.fsgn5-8.fna&_nc_e2o=s&oh=03_AdR_m-zcs7VptSc0ei0P-hv2STxNaXcAMCh8w6Pwrk_5zQ&oe=6537AC80)![classic_bike_vs_member_casual](https://github.com/maichi0568/Cyclist_case_study/assets/132160789/2e3ade4c-f0de-4f24-a7d0-5654d982fd89)![electric_bike_vs_member_casual](https://scontent.fhan5-9.fna.fbcdn.net/v/t1.15752-9/383259583_292734470211708_4655469346325337062_n.png?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=swhQL10wYR8AX-IDZ0g&_nc_ht=scontent.fhan5-9.fna&_nc_e2o=s&oh=03_AdSR1WRRtiO2rB2h0_Hdx2ZV6gN0zCTPx5N5GZag3wS1SQ&oe=6537D221)![rideable_bike_vs_member_casual](https://scontent.fhan5-10.fna.fbcdn.net/v/t1.15752-9/381518819_329035286283733_4057453054936913240_n.png?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=ssi0lOn_-zEAX87RqRe&_nc_ht=scontent.fhan5-10.fna&_nc_e2o=s&oh=03_AdRzTHfq9EqL7EEqW6cyfQN9DL6DBpDPp5Lkra_cwamRxg&oe=6537E08C)
 
 
