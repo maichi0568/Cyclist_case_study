@@ -28,7 +28,7 @@ The data is located in the [link](https://divvy-tripdata.s3.amazonaws.com/index.
 ## Data organization
 There is 12 files with naming yyyymm-divvy-tripdata. Each file of data have 13 colums: ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng and member_casual.
 # Process
-I am using SQL, PostgresSQL and Spreadsheets for processing, analyzing and visualizing the data due to the size of the database is too large that we can’t use spreadsheet doing these tasks.
+I am using SQL, PostgresSQL and R for processing, analyzing and visualizing the data due to the size of the database is too large that we can’t use spreadsheet doing these tasks.
 ## Load the data into SQL
 The code is in the file Load_data.sql
 ## Data combining
@@ -62,6 +62,21 @@ This step includes:
 * Update for the row that have the end_day is more than the start_day
 # Analyze
 * First of all, member and casual riders are compared by the type of bikes they are using.
-![docked_bike_vs_member_casual](https://scontent.fsgn5-8.fna.fbcdn.net/v/t1.15752-9/381508155_295497883114203_6790646712262889420_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=hSzFo1zZvlcAX_2xBvA&_nc_ht=scontent.fsgn5-8.fna&_nc_e2o=s&oh=03_AdR_m-zcs7VptSc0ei0P-hv2STxNaXcAMCh8w6Pwrk_5zQ&oe=6537AC80)![classic_bike_vs_member_casual](https://github.com/maichi0568/Cyclist_case_study/assets/132160789/2e3ade4c-f0de-4f24-a7d0-5654d982fd89)![electric_bike_vs_member_casual](https://scontent.fhan5-9.fna.fbcdn.net/v/t1.15752-9/383259583_292734470211708_4655469346325337062_n.png?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=swhQL10wYR8AX-IDZ0g&_nc_ht=scontent.fhan5-9.fna&_nc_e2o=s&oh=03_AdSR1WRRtiO2rB2h0_Hdx2ZV6gN0zCTPx5N5GZag3wS1SQ&oe=6537D221)![rideable_bike_vs_member_casual](https://scontent.fhan5-10.fna.fbcdn.net/v/t1.15752-9/381518819_329035286283733_4057453054936913240_n.png?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=ssi0lOn_-zEAX87RqRe&_nc_ht=scontent.fhan5-10.fna&_nc_e2o=s&oh=03_AdRzTHfq9EqL7EEqW6cyfQN9DL6DBpDPp5Lkra_cwamRxg&oe=6537E08C)
+![rideable_bike_vs_member_casual](https://scontent.fhan5-10.fna.fbcdn.net/v/t1.15752-9/381518819_329035286283733_4057453054936913240_n.png?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=ssi0lOn_-zEAX87RqRe&_nc_ht=scontent.fhan5-10.fna&_nc_e2o=s&oh=03_AdRzTHfq9EqL7EEqW6cyfQN9DL6DBpDPp5Lkra_cwamRxg&oe=6537E08C)
+![rideable_bike](https://scontent.fhan15-1.fna.fbcdn.net/v/t1.15752-9/383354557_839292230989406_6680279656416424035_n.png?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=M6chIrsSYvcAX9gKy-3&_nc_ht=scontent.fhan15-1.fna&_nc_e2o=s&oh=03_AdSm3hhzoNiH6B2fEK9zhQ1Q_BL6N1pCUGl2NnlfF_MSUg&oe=6537D87E)
+The members make 60% of the total while remaining 40% constitutes casual riders. People drive class bike most and the docked bike least, just only casuals drive docked bike.
+* Second, the trendline of amount total_tips with the orange line is member and the gray line is casual.
+![total_trips_month](https://scontent.fhan15-2.fna.fbcdn.net/v/t1.15752-9/383294195_1977506955957993_5125029611504631027_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=7J1Lqt0uac8AX-tGAQV&_nc_ht=scontent.fhan15-2.fna&_nc_e2o=s&oh=03_AdSeZzn7GbQDlWLMOGfzr6JFyLTbVYFnVC05TuiIMVMZRw&oe=6537DB84)
+![total_trips_weekday](https://scontent.fhan15-1.fna.fbcdn.net/v/t1.15752-9/383700819_1116208819342155_6743714241626409680_n.png?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=PKPrk0lEwoIAX-EJ_6-&_nc_ht=scontent.fhan15-1.fna&_nc_e2o=s&oh=03_AdS3l7WoxUeQ-mYYIhcwoF3fwViti6jCeFzPdsb0-AYIVA&oe=6537EE29)
+![total_trips_hour](https://scontent.fhan15-1.fna.fbcdn.net/v/t1.15752-9/383549906_1046412943454489_6696580142538637853_n.png?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=8kM8xSuWslYAX9mTIsx&_nc_ht=scontent.fhan15-1.fna&_nc_e2o=s&oh=03_AdR7OS79hj3SqZVfennBUUuFHorM8lzEGo6J0oBRaKYtNQ&oe=6537E55B)
+* Month: People drive more in the spring and summer and fewer in the winter.The gap between casuals and members is closest in the month of july in summmer.
+* Weekday: Casuals drive more at weekends while members are opposite.
+* Hour: The members shows 2 peaks throughout the day in terms of number of trips. One is early in the morning at around 6 am to 8 am and other is in the evening at around 4 pm to 8 pm while number of trips for casual riders increase consistently over the day till evening and then decrease afterwards.
+We also discover that casual often start and end their trip in the place of entertainment while members often start and end their trip close to universities, residential and commercial areas.
+* Act
+Recommendation for the marketing strategy:
+1, Increase the amount of bikes, do some marketing strategies in spring and summer in the places of entertament.
+2, Provide benefits for member and limit benefits for casual such as time-using at weekends.
+3, Discount for long time-using.
 
 
