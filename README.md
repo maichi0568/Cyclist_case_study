@@ -78,3 +78,5 @@ Recommendation for the marketing strategy:
 * Increase the amount of bikes, do some marketing strategies in spring and summer in the places of entertament.
 * Provide benefits for member and limit benefits for casual such as time-using at weekends.
 * Discount for long time-using.
+* Release more classic_bike.
+* Control the small amount of the docked_bike.
