@@ -28,7 +28,7 @@ The data is located in the [link](https://divvy-tripdata.s3.amazonaws.com/index.
 ## Data organization
 There is 12 files with naming yyyymm-divvy-tripdata. Each file of data have 13 colums: ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng and member_casual.
 # Process
-I am using SQL, PostgresSQL and R for processing, analyzing and visualizing the data due to the size of the database is too large that we can’t use spreadsheet doing these tasks.
+I am using SQL, PostgresSQL and Spreadsheets for processing, analyzing and visualizing the data due to the size of the database is too large that we can’t use spreadsheet doing these tasks.
 ## Load the data into SQL
 The code is in the file Load_data.sql
 ## Data combining
@@ -60,5 +60,8 @@ This step includes:
 * Remove the row that both end_station_name and end_station_id are null
 * Remove the row that both end_lat and end_lng are null
 * Update for the row that have the end_day is more than the start_day
+# Analyze
+## First of all, member and casual riders are compared by the type of bikes they are using.
+[docked_bike_vs_member_casual](https://scontent.fsgn5-8.fna.fbcdn.net/v/t1.15752-9/381508155_295497883114203_6790646712262889420_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=hSzFo1zZvlcAX_2xBvA&_nc_ht=scontent.fsgn5-8.fna&_nc_e2o=s&oh=03_AdR_m-zcs7VptSc0ei0P-hv2STxNaXcAMCh8w6Pwrk_5zQ&oe=6537AC80)
 
 
