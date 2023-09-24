@@ -1,5 +1,5 @@
 # Cyclist_case_study
-This case study focuses on Cyclistic, a bike-share company in Chicago. In order to answer the business tasks, I will follow the six phases of the data analysis procress: Ask, Prepare, Process, Analyze, Share and Act
+This case study focuses on Cyclistic, a bike-share company in Chicago. In order to answer the business tasks, I will follow the six phases of the data analysis procress: Ask, Prepare, Process, Analyze, Share and Act.
 # Background
 ## About the company
 In 2016, Cyclistic launched a successful bike-share oŦering. Since then, the program has grown to a feet of 5,824 bicycles that aregeotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned toany other station in the system anytime. Until now, Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the Ųexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members. Cyclistic’s ůnance analysts have concluded that annual members are much more profitable than casual riders. Although the pricing Ųexibility helps Cyclistic attract more customers, Moreno believes that maximizing the number of annual members will be key to future growth. Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a very good chance to convert casual riders into members. She notes that casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs. Moreno has set a clear goal: Design marketing strategies aimed at converting casual riders into annual members. In order to do that, however, the marketing analyst team needs to better understand how annual members and casual riders diŦer, why casual
@@ -28,7 +28,7 @@ The data is located in the [link](https://divvy-tripdata.s3.amazonaws.com/index.
 ## Data organization
 There is 12 files with naming yyyymm-divvy-tripdata. Each file of data have 13 colums: ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng and member_casual.
 # Process
-I am using SQL, PostgresSQL and R for processing, analyzing and visualizing the data due to the size of the database is too large that we can’t use spreadsheet doing these tasks.
+I am using SQL, PostgresSQL, R and Spreadsheet to processing, analyzing and visualizing the data due to the size of the database is too large that we can’t use spreadsheet doing these tasks.
 ## Load the data into SQL
 The code is in the file Load_data.sql
 ## Data combining
