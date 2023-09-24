@@ -73,10 +73,8 @@ The members make 60% of the total while remaining 40% constitutes casual riders.
 * Weekday: Casuals drive more at weekends while members are opposite.
 * Hour: The members shows 2 peaks throughout the day in terms of number of trips. One is early in the morning at around 6 am to 8 am and other is in the evening at around 4 pm to 8 pm while number of trips for casual riders increase consistently over the day till evening and then decrease afterwards.
 We also discover that casual often start and end their trip in the place of entertainment while members often start and end their trip close to universities, residential and commercial areas.
-* Act
+# Act
 Recommendation for the marketing strategy:
 1, Increase the amount of bikes, do some marketing strategies in spring and summer in the places of entertament.
 2, Provide benefits for member and limit benefits for casual such as time-using at weekends.
 3, Discount for long time-using.
-
-
