@@ -30,12 +30,12 @@ There is 12 files with naming yyyymm-divvy-tripdata. Each file of data have 13 c
 # Process
 I am using SQL, PostgresSQL, R and Spreadsheet to processing, analyzing and visualizing the data due to the size of the database is too large that we can’t use spreadsheet doing these tasks.
 ## Load the data into SQL
-The code is in the file Load_data.sql
+The code is in the file [Load_data.sql](https://github.com/maichi0568/Cyclist_case_study/commit/6c8115c6e5719689361cf6290b7da2502c3f68ac)
 ## Data combining
 After combining 12 files, the total rows of the new table is 5667717 equal to the total rows of the 12 files.
-The code is in file Data_combining.sql
+The code is in file [Data_combining.sql](https://github.com/maichi0568/Cyclist_case_study/blob/main/Data_combine.sql)
 ## Data exploration
-The code is in file Data_Exploration.sql
+The code is in file [Data_Exploration.sql](https://github.com/maichi0568/Cyclist_case_study/blob/main/Data_Exploration.sql)
 This step includes 
 * Test if ride_id is validation
 * Check the riding-time
@@ -53,7 +53,7 @@ Through these steps, we get some results:
 * Total 892742 rows that end_station_name and end_station_id null -> need to be removed
 * Toatl 5858 rows that end_lat and end_lng null -> need to be removed
 ## Data process
-The code is in the file Data_Process.sql
+The code is in the file [Data_Process.sql](https://github.com/maichi0568/Cyclist_case_study/blob/main/Data_Process.sql)
 This step includes:
 * Remove that the end_day is less than the start_day
 * Remove the row that both start_station_name and start_station_id are null
